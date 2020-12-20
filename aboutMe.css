@@ -9,3 +9,46 @@ body{
 body{
     background-color: #5AA9E6;
 }
+
+/*Bootstrap p-6*/
+.pt-6,
+.py-6 {
+    padding-top: 15rem !important;
+}
+
+.pr-6,
+.px-6 {
+    padding-right: 15rem !important;
+}
+
+.pb-6,
+.py-6 {
+    padding-bottom: 15rem !important;
+}
+
+.pl-6,
+.px-6 {
+    padding-left: 15rem !important;
+}
+
+@media (min-width: 768px) {
+    .pt-md-6,
+    .py-md-6 {
+        padding-top: 15rem !important;
+    }
+
+    .pr-md-6,
+    .px-md-6 {
+        padding-right: 15rem !important;
+    }
+
+    .pb-md-6,
+    .py-md-6 {
+        padding-bottom: 15rem !important;
+    }
+
+    .pl-md-6,
+    .px-md-6 {
+        padding-left: 15rem !important;
+    }
+}
