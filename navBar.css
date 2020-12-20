@@ -5,18 +5,35 @@
 .iconImage{
     width: 3rem;
     margin-left: 2rem;
+    opacity:1;
+    transition: 1s ease;
 }
 
-.nav-item{
+.iconImage:hover{
+    width: 3.2rem;
+    opacity:0.5;
+    transition: 1s ease;
+}
+
+.navText{
+    width: auto;
+    margin:0;
+    margin-left: 3rem;
     font-size: 1.5rem;
 }
-.nav-item a{
+
+.nav-link{
+    font-size: 1.5rem;
+}
+.nav-link{
     text-decoration: none;
     color: black;
-    margin-left: 10rem;
     font-size: 1.5rem;
+    transition: 1s ease;
 }
 
-.nav-item a:hover{
+.nav-link:hover{
     color:#5AA9E6;
+    font-size: 1.7rem;
+    transition: 1s ease;
 }
