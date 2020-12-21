@@ -10,6 +10,39 @@ body{
     background-color: #5AA9E6;
 }
 
+.mainContent{
+    padding-top:10vh;
+}
+
+.mainContent h1{
+    font-size: 6rem;
+    color: white;
+    text-shadow:4px 4px #000000;
+}
+
+.mainContent h2{
+    font-size: 3rem;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.contentText{
+    font-size: 2rem;
+    background-color: white;
+    border: 3px solid black;
+}
+
+.icons{
+    width:5rem;
+    height:auto;
+}
+
+.contentIconLabel{
+    display: inline;
+    color:white;
+    font-size: 2rem;
+}
+
 /*Bootstrap p-6*/
 .pt-6,
 .py-6 {
@@ -31,24 +64,46 @@ body{
     padding-left: 15rem !important;
 }
 
-@media (min-width: 768px) {
-    .pt-md-6,
-    .py-md-6 {
+
+@media (min-width: 992px) {
+    .pt-lg-6,
+    .py-lg-6 {
         padding-top: 15rem !important;
     }
 
-    .pr-md-6,
-    .px-md-6 {
+    .pr-lg-6,
+    .px-lg-6 {
         padding-right: 15rem !important;
     }
 
-    .pb-md-6,
-    .py-md-6 {
+    .pb-lg-6,
+    .py-lg-6 {
         padding-bottom: 15rem !important;
     }
 
-    .pl-md-6,
-    .px-md-6 {
+    .pl-lg-6,
+    .px-lg-6 {
         padding-left: 15rem !important;
     }
 }
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+  /* Track */
+::-webkit-scrollbar-track {
+    background: #888;
+}
+
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: white;
+}
+
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: white;
+}
+

@@ -29,6 +29,12 @@ body{
     color: #BD1E1E;
 }
 
+.imgRight{
+    position: absolute;
+    right:0;
+    z-index:-1;
+}
+
 /*Bootstrap p-6*/
 .pt-6,
 .py-6 {
@@ -70,4 +76,46 @@ body{
     .px-md-6 {
         padding-left: 15rem !important;
     }
+}
+
+@media (min-width: 992px) {
+    .pt-lg-6,
+    .py-lg-6 {
+        padding-top: 15rem !important;
+    }
+
+    .pr-lg-6,
+    .px-lg-6 {
+        padding-right: 15rem !important;
+    }
+
+    .pb-lg-6,
+    .py-lg-6 {
+        padding-bottom: 15rem !important;
+    }
+
+    .pl-lg-6,
+    .px-lg-6 {
+        padding-left: 15rem !important;
+    }
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+  /* Track */
+::-webkit-scrollbar-track {
+    background: #888;
+}
+
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: white;
+}
+
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: white;
 }
