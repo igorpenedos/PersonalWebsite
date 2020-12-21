@@ -7,7 +7,15 @@ body{
 
 /*Home Page*/
 body{
-    background-color: #5AA9E6;
+    background-color: #E5D0CC;
+}
+
+.contentTextM{
+    color: #172121;
+}
+
+.contentTextA{
+    color: #444554;
 }
 
 .mainContent{
@@ -16,17 +24,11 @@ body{
 
 .mainContent h1{
     font-size: 6rem;
-    color: white;
-    text-shadow:4px 4px #000000;
+    text-shadow:4px 4px #7F7B82;
 }
 
 .mainContent p{
-    margin-top: 3rem;
     font-size: 2rem;
-}
-
-.redText{
-    color: #BD1E1E;
 }
 
 .imgRight{
