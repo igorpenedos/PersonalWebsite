@@ -31,6 +31,12 @@ body{
     font-size: 2rem;
 }
 
+.mainContent a{
+    text-decoration: none;
+    color: #172121;
+    font-size: 2rem;
+}
+
 .imgRight{
     position: absolute;
     right:0;
