@@ -35,6 +35,12 @@ body{
     text-decoration: none;
     color: #172121;
     font-size: 2rem;
+    opacity: 100%;
+}
+
+.mainContent a:hover{
+    opacity: 50%;
+    transition: 1s ease;
 }
 
 .imgRight{
