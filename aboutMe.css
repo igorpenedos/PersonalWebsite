@@ -7,7 +7,7 @@ body{
 
 /*Home Page*/
 body{
-    background-color: #5AA9E6;
+    background-color: #E5D0CC;
 }
 
 .mainContent{
@@ -16,20 +16,26 @@ body{
 
 .mainContent h1{
     font-size: 6rem;
-    color: white;
-    text-shadow:4px 4px #000000;
+    text-shadow:4px 4px #7F7B82;
 }
 
 .mainContent h2{
     font-size: 3rem;
-    color: white;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    text-shadow:2px 2px #7F7B82;
+}
+
+.contentTextM{
+    color: #172121;
+}
+
+.contentTextA{
+    color: #444554;
 }
 
 .contentText{
     font-size: 2rem;
-    background-color: white;
-    border: 3px solid black;
+    /*background-color: #BFACB5;*/
+    /*border: 3px solid black;*/
 }
 
 .icons{
@@ -39,7 +45,6 @@ body{
 
 .contentIconLabel{
     display: inline;
-    color:white;
     font-size: 2rem;
 }
 

@@ -27,13 +27,13 @@
 }
 .nav-link{
     text-decoration: none;
-    color: black;
+    color: #172121;
     font-size: 1.5rem;
     transition: 1s ease;
 }
 
 .nav-link:hover{
-    color:#5AA9E6;
+    color:#BFACB5;
     font-size: 1.7rem;
     transition: 1s ease;
 }
