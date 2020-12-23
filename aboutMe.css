@@ -10,6 +10,10 @@ body{
     background-color: #E5D0CC;
 }
 
+hr{
+    color: #7F7B82;
+}
+
 .mainContent{
     padding-top:10vh;
 }
@@ -48,7 +52,22 @@ body{
     font-size: 2rem;
 }
 
-/*Bootstrap p-6*/
+/*.skills{
+    width:max-content;
+    background-color: #BFACB5;
+    border: 2px solid #7F7B82;
+    padding-right: 2rem;
+}
+.skills1{
+    border: 2px solid #7F7B82;
+}*/
+
+.skills:hover, .skills1:hover{
+    opacity: 50%;
+    transition: 1s ease;
+}
+
+/*Bootstrap*/
 .pt-6,
 .py-6 {
     padding-top: 15rem !important;
@@ -69,6 +88,29 @@ body{
     padding-left: 15rem !important;
 }
 
+@media (max-width: 768px) {
+    .contentText{
+        font-size: 1.5rem !important;
+    }
+}
+
+@media (max-width: 534px) {
+    .contentText{
+        font-size: 1rem !important;
+    }
+}
+
+@media (max-width: 1055px) {
+    .contentIconLabel{
+        font-size: 1.5rem !important;
+    }
+}
+
+@media (max-width: 1352px) {
+    .contentIconLabel{
+        font-size: 1.5rem !important;
+    }
+}
 
 @media (min-width: 992px) {
     .pt-lg-6,
