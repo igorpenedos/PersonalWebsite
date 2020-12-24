@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+/*Global*/
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/*Home Page*/
+body{
+    background-color: #E5D0CC;
+}
+
+hr{
+    color: #7F7B82;
+}
+
+.mainContent{
+    padding-top:10vh;
+}
+
+.mainContent h1{
+    font-size: 6rem;
+    text-shadow:4px 4px #7F7B82;
+}
+
+.mainContent h2{
+    font-size: 3rem;
+    text-shadow:2px 2px #7F7B82;
+}
+
+.contentTextM{
+    color: #172121;
+}
+
+.contentTextA{
+    color: #444554;
+}
+
+.contentHeader{
+    font-size: 2rem;
+}
+
+.contentText{
+    font-size: 2rem;
+    /*background-color: #BFACB5;*/
+    /*border: 3px solid black;*/
+}
+
+
+
+
+
+@media (min-width: 992px) {
+    .pt-lg-6,
+    .py-lg-6 {
+        padding-top: 15rem !important;
+    }
+
+    .pr-lg-6,
+    .px-lg-6 {
+        padding-right: 15rem !important;
+    }
+
+    .pb-lg-6,
+    .py-lg-6 {
+        padding-bottom: 15rem !important;
+    }
+
+    .pl-lg-6,
+    .px-lg-6 {
+        padding-left: 15rem !important;
+    }
+}
