@@ -37,13 +37,31 @@ hr{
 }
 
 .contentHeader{
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .contentText{
     font-size: 2rem;
     /*background-color: #BFACB5;*/
     /*border: 3px solid black;*/
+}
+
+.table-bordered{
+    border-color: #172121;
+}
+
+.table-bordered:hover{
+    background-color: #172121;
+}
+
+a{
+    text-decoration: none;
+    color: #172121;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #172121;
 }
 
 

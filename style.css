@@ -36,6 +36,7 @@ body{
     color: #172121;
     font-size: 2rem;
     opacity: 100%;
+    transition: 1s ease;
 }
 
 .mainContent a:hover{
