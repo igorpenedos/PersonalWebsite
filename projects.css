@@ -88,3 +88,24 @@ a:hover{
         padding-left: 15rem !important;
     }
 }
+
+@media (min-width: 768px) {
+    .table-bordered{
+        border-color: #172121;
+        transition: transform .2s;
+    }
+    
+    .table-bordered:hover{
+        background-color: #BFACB5;
+        transform: scale(1.05);
+        z-index: 1;
+    }
+}
+
+@media (max-width: 375px) {
+    .table-bordered{
+        border-color: #172121;
+        background-color: #BFACB5;
+        margin-bottom: 2rem;
+    }
+}
