@@ -115,6 +115,15 @@ body{
     }
 }
 
+@media (max-width: 375px) {
+    .mainContent h1{
+        font-size: 4rem;
+    }
+    .mainContent p{
+        font-size: 1rem;
+    }
+}
+
 /* width */
 ::-webkit-scrollbar {
     width: 10px;
