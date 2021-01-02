@@ -48,6 +48,7 @@ hr{
 
 .table-bordered{
     border-color: #172121;
+    width: min-content;
 }
 
 .table-bordered:hover{
@@ -107,5 +108,8 @@ a:hover{
         border-color: #172121;
         background-color: #BFACB5;
         margin-bottom: 2rem;
+    }
+    .mainContent h1{
+        font-size: 4rem;
     }
 }
