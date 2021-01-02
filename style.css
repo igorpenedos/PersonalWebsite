@@ -118,6 +118,8 @@ body{
 @media (max-width: 414px) {
     .mainContent h1{
         font-size: 4rem;
+        text-shadow: 2px 2px #7F7B82;
+
     }
     .mainContent p{
         font-size: 1rem;

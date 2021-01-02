@@ -111,5 +111,6 @@ a:hover{
     }
     .mainContent h1{
         font-size: 4rem;
+        text-shadow:2px 2px #7F7B82;
     }
 }
