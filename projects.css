@@ -102,7 +102,7 @@ a:hover{
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 414px) {
     .table-bordered{
         border-color: #172121;
         background-color: #BFACB5;
