@@ -115,7 +115,7 @@ body{
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 414px) {
     .mainContent h1{
         font-size: 4rem;
     }

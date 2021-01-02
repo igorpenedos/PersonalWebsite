@@ -52,17 +52,7 @@ hr{
     font-size: 2rem;
 }
 
-/*.skills{
-    width:max-content;
-    background-color: #BFACB5;
-    border: 2px solid #7F7B82;
-    padding-right: 2rem;
-}
-.skills1{
-    border: 2px solid #7F7B82;
-}*/
-
-.skills:hover, .skills1:hover{
+.skills:hover{
     opacity: 50%;
     transition: 1s ease;
 }
